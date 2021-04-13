@@ -1,0 +1,7 @@
+a=input()
+b=a.split(",")
+b.insert(0,"Actor")
+print(b)
+c=input()
+d=b.index(c)
+print("{}是第{}个到达的".format(c,d))
