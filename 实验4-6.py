@@ -1,0 +1,5 @@
+a=input("请输入一段英文字符串：")
+alist=list(a)
+alist.sort(reverse=True)
+b=str(alist)
+print(b)
